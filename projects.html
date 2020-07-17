@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Academic and Personal Projects</title>
+  <link rel="stylesheet" href="css/styles.css">
+  </link>
+</head>
+
+<body>
+  <h4>Interactive Teacher-Student Portal using JAVA Swing</h4>
+  <p>
+    An Interactive portal to ease the communication queue for Teacher-student was built using Java Swing.
+    The portal has several features like pause, skip and leave the queue, all realised using basic Data Strutures.
+    Authentication was also implemented.
+  </p>
+  <hr>
+
+  </hr>
+  <h4>Inverted-Index using Python</h4>
+  <p>Familiarized myself with IR concepts such as Dictonary, posting, Inverted index, Boolean operations, TF-IDF.
+    Created my own inverted index, postings list and implemented Term-at-a-time and Document-at-a-time strategy to
+    answering Boolean queries. Once answered, TF-IDF score was calculated.</p>
+  <hr>
+  </hr>
+
+  <h4>Personal firewall For PC</h4>
+  <p>
+    As a simplified model of a firewall, programmed with a set of predetermined security rules. As network traffic enters and leaves the machine,the firewall rules determine whether the traffic should be allowed or blocked. An input from the CSV file
+    has four columns- Direction,protocol, ports, and IP address. Using a CSV read class , We read the file and parse the output in the form of packet class. we use getter method to get the direction, protocol, port and IP. Have created a FireWall
+    class which implements a firewall interface , the class has a function accept_packet which returns boolean output. we have an enumeration- ruletype , which has 4 variables of the combination Direction and protocol. we createa hashmap where the
+    key is the ruletype and value is List of List of strings. I have used this Data Structure for performance efficency. As we store everything from the csv once and check it for sanity. In the method addPacketsTomap we create initialize a array list
+    for all four variables in ruletype enum. IP and port number is mapped to the key(ruletype). We use the accept packet where we get the port number , we use another method to check if the IP is present in the haspmap. we use another isvalid to
+    check if the port range is present.
+  </p>
+  <hr>
+  </hr>
+  <h4>Information Retrival Model Implementation and Evaluation</h4>
+  <p>Implement various IR models, evaluated the IR system- (i) Language Model,
+    (ii) BM25 and (iii) Divergence from Randomness (DFR) Model and improved the search results of
+    Twitter data in three languages - English, German and Russian and the results were indexed using Solr.
+    The results from the three sets were evaluated using the Trec_eval program.</p>
+  <hr>
+  </hr>
+  <h4>A Full Stack Web application to mine twitter data and perform sentiment analysis</h4>
+  <p>
+    An end-to-end IR solution involving content ingestion, search, topic categorization,
+    analytics and visualization using React.js ,Angular.js, AWS , Twitter Developer account ,solr indexing and Kibana.
+  </p>
+  <hr>
+  </hr>
+
+  <h4>Professional Website Using HTML5</h4>
+  <p> The One you are looking at!!!</p>
+  <hr>
+  </hr>
+  <h4>Personalized website using HTML5 and CSS3</h4>
+  <p> On creating the Professionl website I wanted to explore with the styling and layouts ,
+    hence created this stylized website. <a href=" https://i-am-bharathi.github.io/personal-site/"> click here to know more about me.</a>
+
+  </p>
+  <hr>
+  </hr>
+  <h4> TINDOG- A fun Webapp I am currently working on</h4>
+  <p>
+    This is a webapp that helps to meet dogs in your neighbourhood.
+    I am currently building this using HTML5, css3, Bootstrap4, javascript, jQuery, express.js, react.js and node.js
+    <br></br>
+    Realsing soon........
+    <br>
+
+  </br>
+  <hr></hr>
+  </p>
+  <h4>Realized Distributed Algorithms using Tla+</h4>
+  <p>
+    2PC commit protocol is a transaction protocol which aims at Atomicity. We have multiple Databases as Resource manager and One Transaction Manager as a coordinator
+    In the Base code, I have a simple implementation of the two-phase protocol. And set the resource manager to working state and evaluated the model for all scenarios
+
+
+  </p>
+  <hr>
+
+  </hr>
+  <h4>Implementation of Decentralized consensus Algorithm</h4>
+  <p>
+    In this project,I implemented decentralized consensus algorithm, BenOr. It is a
+    binary protocol which decides commit or abort for each instance.I have worked with model checking tools while
+    testing the spec for different scenarios, and also l analysed what can go wrong in distributed set up.
+  </p>
+  <hr>
+
+  </hr>
+
+
+  <h4>Breast Cancer Classification using Machine Learning </h4>
+  <p>
+    The project presents an approach to classify cells into two class- Malignant or Benign for
+    breast cancer which is also known as two class classifier in supervised machine learning.
+    Wisconsin Diagnostic Breast cancer data set is used.
+    The dataset is split and used for training, Validation and testing.
+    The data set is normalized and weights and biases are initialized per learning rate.
+    Then the epoch is set to a number and logistic regression is calculated from the scratch using python
+  </p>
+  <hr>
+  </hr>
+  <h4> Classification Using Neural Networks and Convolutional Neural Networks</h4>
+  <p>
+    Implements neural networks and convolutional networks for the task of classification. The classification task will be that of recognizing an image and identifying it as one of ten classes.Neural network was build with one hidden layer , trained
+    and tested on fashion-MNIST dataset. Multi-layer neural network was built using keras on fashion MNIST dataset.
+    Convolutional neural network was also built on fashion MNIST dataset
+  </p>
+  <hr>
+  </hr>
+  <h4>Cluster Analysis using unsupervised learning</h4>
+  <p>Cluster analysis is one of the unsupervised machine learning technique.
+    It Separates the images into clusters and identifies the given input into one of the clusters. The Following tasks were performed: Fashion-MNIST dataset was clustered using KMeans Algorithm. An Auto-Encoder based K-Means cluster model was built
+    to cluster the condensed representation of the unlabeled fashion MNIST dataset using Keras and Sklearns library. An Auto-Encoder based Gaussian Mixture Model clustering model was built to cluster the condensed representation of the unlabeled
+    fashion MNIST dataset using Keras and Sklearns library.</p>
+  <hr>
+  </hr>
+  <h4>Seven segment Display</h4>
+  <p>
+    circuit on the Basys3 board that demonstrates that you can enter a number
+    using the slider buttons and push buttons and display that number using the LEDs
+    and 7-segment displays.
+  </p>
+  <hr>
+  </hr>
+  <h4>Guessing Game</h4>
+    <p>Design a two player guessing game. The game starts with the four digit seven
+      segment display illuminated with “PL 1” indicating that player #1 should enter a
+      number between 0x0000 and 0xFFFF. The number is entered using the push
+      buttons and slider switches. After the number has been entered, player #1 should
+      press the center momentary push button (C). The seven segment displays are used
+      to indicate this by now displaying “PL 2”, indicating it is player #2’s turn. Player
+      #2 repeatedly enters four digit numbers until they correctly guess the number
+      entered by player #1</p>
+    <hr>
+    </hr>
+
+
+
+<h2>Updating.....</h2>
+
+</body>
+
+</html>
